@@ -1,0 +1,130 @@
+@keyframes logo{
+    0% {color: black;}
+    25%{color: gray;}
+    50%{color: white;}
+    75%{color: gray;}
+    100% {color: black;}
+}
+
+
+body{
+    background-color: #000;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+}
+.first_content{
+    display:flex;
+margin-top: 30px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 30px;
+}
+.first_colum{
+    height: 515px;
+    width: 410px;
+    background-color:rgb(88, 175, 156);
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.secund_colum{
+    height: 516px;
+    width: 612px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+ul{
+    list-style: none;
+}
+.title{
+    color:#ffff;
+    font-size: 29px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.title2{
+    color: rgb(93, 176, 162);
+    font-size: 29px;
+    margin-top: 97px;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+}
+.description{
+    color: rgb(93, 176, 162);
+    font-size: 20px;
+}
+.redes_sociais  li{
+   display: inline-block;
+ margin-top: -28px;
+ padding: 20px;
+}
+form{
+    display: block;
+}
+form input {
+    background-color: #fff;
+ color: rgb(198, 203,206);
+border: none;
+ width: 383px;
+ height: 51px;
+}
+.botao{
+    background-color: rgb(88, 175, 156);
+    height: 32px;
+    width: 195px;
+    border: 1px solid white;
+    color: rgb(172, 220, 206);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.nome, .email, .senha{
+    height: 35px;
+    width: 195px;
+    border-radius: 10px;
+    background-color: #eee;
+    color: black;
+}
+
+.nome::placeholder{
+    color: black;
+}
+.email::placeholder{
+    color: black;
+}
+.senha::placeholder{
+    color: black;
+}
+.secund_colum{
+    background-color: #fff;
+}
+
+.redes_sociais{
+    margin-left: -40px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 60px;
+    font-family: zapf chancery;
+    font-style: italic;
+    margin-top: 40px;
+    animation-name: logo;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
